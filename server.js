@@ -38,7 +38,7 @@ app.use("/", require("./server/routers/golfer_router.js"));
 app.use("/", require("./server/routers/participant_router.js"));
 app.use("/", require("./server/routers/auth_router.js"));
 app.use("/", (req, res, next) =>
-  res.sendFile(path.join(__dirname, "html/main.html"))
+  res.sendFile(path.join(__dirname, "index.html"))
 );
 
 const init = async () => {
