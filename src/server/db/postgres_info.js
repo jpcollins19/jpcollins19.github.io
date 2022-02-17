@@ -10,8 +10,7 @@ if (process.env.LOGGING) {
 }
 
 const db = new Sequelize(
-  process.env.DATABASE_URL ||
-    "postgres://jpcollins19.github.io/masters_testing",
+  process.env.DATABASE_URL || "postgres://localhost/masters_testing",
   config
 );
 const { STRING, UUID, UUIDV4, BOOLEAN, INTEGER } = Sequelize;
