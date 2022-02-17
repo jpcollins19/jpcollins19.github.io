@@ -63,6 +63,7 @@ const NavBar = () => {
           <ListItem sx={{ py: 2, px: 3 }}>
             <ListItemText sx={{ color: "#fff" }}>
               <h3 className="navbar-title-text">Options</h3>
+              joe
             </ListItemText>
           </ListItem>
           {part.id ? (
